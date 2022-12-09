@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-15T19:07:49 IST" name="Loan" finished-at="2022-06-15T19:07:49 IST" duration-ms="386">
+    <groups>
+      <group name="smoke">
+        <method signature="ClassOne.Demo()[pri:0, instance:Demo.ClassOne@44821a96]" name="Demo" class="Demo.ClassOne"/>
+        <method signature="ClassFour.MobLoginHomeLoan()[pri:0, instance:Demo.ClassFour@3d6f0054]" name="MobLoginHomeLoan" class="Demo.ClassFour"/>
+        <method signature="ClassFour.WebLoginHomeLoan()[pri:0, instance:Demo.ClassFour@3d6f0054]" name="WebLoginHomeLoan" class="Demo.ClassFour"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-06-15T19:07:49 IST" name="Personal Loan" finished-at="2022-06-15T19:07:49 IST" duration-ms="114">
+      <class name="Demo.ClassTwo">
+        <test-method is-config="true" signature="zMethod()[pri:0, instance:Demo.ClassTwo@2e55dd0c]" started-at="2022-06-15T19:07:49 IST" name="zMethod" finished-at="2022-06-15T19:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zMethod -->
+        <test-method signature="xMethod()[pri:0, instance:Demo.ClassTwo@2e55dd0c]" started-at="2022-06-15T19:07:49 IST" name="xMethod" finished-at="2022-06-15T19:07:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xMethod -->
+      </class> <!-- Demo.ClassTwo -->
+      <class name="Demo.ClassOne">
+        <test-method signature="Demo()[pri:0, instance:Demo.ClassOne@44821a96]" started-at="2022-06-15T19:07:49 IST" name="Demo" finished-at="2022-06-15T19:07:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest(java.lang.String)[pri:0, instance:Demo.ClassOne@44821a96]" started-at="2022-06-15T19:07:49 IST" name="SecondTest" finished-at="2022-06-15T19:07:49 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method is-config="true" signature="Last()[pri:0, instance:Demo.ClassOne@44821a96]" started-at="2022-06-15T19:07:49 IST" name="Last" finished-at="2022-06-15T19:07:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- Demo.ClassOne -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-06-15T19:07:49 IST" name="Car Loan" finished-at="2022-06-15T19:07:49 IST" duration-ms="32">
+      <class name="Demo.ClassThree">
+        <test-method is-config="true" signature="befcls()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="befcls" finished-at="2022-06-15T19:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befcls -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="befmet" finished-at="2022-06-15T19:07:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="WebLoginCarLoan" finished-at="2022-06-15T19:07:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="aftmet()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="aftmet" finished-at="2022-06-15T19:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmet -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="befmet" finished-at="2022-06-15T19:07:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="APILoginCarLoan()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="APILoginCarLoan" finished-at="2022-06-15T19:07:49 IST" depends-on-methods="Demo.ClassThree.WebLoginCarLoan" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method is-config="true" signature="aftmet()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="aftmet" finished-at="2022-06-15T19:07:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmet -->
+        <test-method is-config="true" signature="affcls()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="affcls" finished-at="2022-06-15T19:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affcls -->
+      </class> <!-- Demo.ClassThree -->
+    </test> <!-- Car Loan -->
+    <test started-at="2022-06-15T19:07:49 IST" name="Home Loan" finished-at="2022-06-15T19:07:49 IST" duration-ms="41">
+      <class name="Demo.ClassFour">
+        <test-method is-config="true" signature="bef(java.lang.String)[pri:0, instance:Demo.ClassFour@3d6f0054]" started-at="2022-06-15T19:07:49 IST" name="bef" finished-at="2022-06-15T19:07:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redbus.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bef -->
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:Demo.ClassFour@3d6f0054]" started-at="2022-06-15T19:07:49 IST" name="APILoginHomeLoan" finished-at="2022-06-15T19:07:49 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="MobLoginHomeLoan()[pri:0, instance:Demo.ClassFour@3d6f0054]" started-at="2022-06-15T19:07:49 IST" name="MobLoginHomeLoan" finished-at="2022-06-15T19:07:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobLoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:Demo.ClassFour@3d6f0054]" started-at="2022-06-15T19:07:49 IST" name="WebLoginHomeLoan" finished-at="2022-06-15T19:07:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- Demo.ClassFour -->
+      <class name="Demo.ClassThree">
+        <test-method is-config="true" signature="suit()[pri:0, instance:Demo.ClassThree@73700b80]" started-at="2022-06-15T19:07:49 IST" name="suit" finished-at="2022-06-15T19:07:49 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suit -->
+      </class> <!-- Demo.ClassThree -->
+      <class name="Demo.ClassOne">
+        <test-method is-config="true" signature="ab()[pri:0, instance:Demo.ClassOne@44821a96]" started-at="2022-06-15T19:07:49 IST" name="ab" finished-at="2022-06-15T19:07:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ab -->
+      </class> <!-- Demo.ClassOne -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan -->
+</testng-results>

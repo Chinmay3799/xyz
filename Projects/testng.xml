@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Udemy.Project.Listeners" />
+	</listeners>
+	
+	<test name="nav valid">
+		<classes>
+			<class name="Udemy.Project.NavigationValidation" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Title Valid">
+		<classes>
+			<class name="Udemy.Project.TitleValidation" />
+		</classes>
+	</test>
+	<test name="main">
+		<classes>
+			<class name="Udemy.Project.HomePage" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

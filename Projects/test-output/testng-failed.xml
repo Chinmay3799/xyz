@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CucumberOptions.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- CucumberOptions.TestRunner -->
+      <class name="Udemy.Project.NavigationValidation">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Udemy.Project.NavigationValidation -->
+      <class name="Udemy.Project.HomePage">
+        <methods>
+          <include name="close"/>
+          <include name="log" invocation-numbers="0"/>
+          <include name="initial"/>
+        </methods>
+      </class> <!-- Udemy.Project.HomePage -->
+      <class name="Udemy.Project.TitleValidation">
+        <methods>
+          <include name="validateHeader"/>
+          <include name="initial"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Udemy.Project.TitleValidation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

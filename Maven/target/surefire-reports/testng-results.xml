@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T18:08:09 IST" name="Suite" finished-at="2022-06-22T18:08:09 IST" duration-ms="148">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T18:08:09 IST" name="Test" finished-at="2022-06-22T18:08:09 IST" duration-ms="148">
+      <class name="Selenium.Maven.AppiumTest">
+        <test-method signature="androidApp()[pri:0, instance:Selenium.Maven.AppiumTest@7bd4937b]" started-at="2022-06-22T18:08:09 IST" name="androidApp" finished-at="2022-06-22T18:08:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidApp -->
+        <test-method signature="iosApp()[pri:0, instance:Selenium.Maven.AppiumTest@7bd4937b]" started-at="2022-06-22T18:08:09 IST" name="iosApp" finished-at="2022-06-22T18:08:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApp -->
+      </class> <!-- Selenium.Maven.AppiumTest -->
+      <class name="Selenium.Maven.APITest">
+        <test-method signature="androidApp()[pri:0, instance:Selenium.Maven.APITest@a530d0a]" started-at="2022-06-22T18:08:09 IST" name="androidApp" finished-at="2022-06-22T18:08:09 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidApp -->
+        <test-method signature="iosApp()[pri:0, instance:Selenium.Maven.APITest@a530d0a]" started-at="2022-06-22T18:08:09 IST" name="iosApp" finished-at="2022-06-22T18:08:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApp -->
+      </class> <!-- Selenium.Maven.APITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
